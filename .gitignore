@@ -2,5 +2,6 @@
 
 *.dillo
 *.json
-build/*
-dist/*
+build/
+dist/
+*.egg-info
