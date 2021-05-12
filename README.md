@@ -11,7 +11,7 @@ $ python3 setup.py install
 
 ## From `pip`
 ```bash
-$ pip3 install dillO
+$ pip3 install dill-O
 ```
 
 # In-memory Storage
@@ -21,6 +21,8 @@ from dillo import Dillo
 file = Dillo('My dillO')
 # some object instances as obj
 file.store(obj)
+# Read back from Memory
+obj = file.read()
 ```
 # On File Storage
 ```python
@@ -30,6 +32,13 @@ file = Dillo('My dillO')
 # some object instances as obj
 file.store(obj)  # store the object `before` you write
 file.write_file('./filename.dillO')  # write dillO files
+``` 
+Read back from Files
+```python
+from dillo import Dillo
+
+file = Dillo.read_file('./filename.dillO')  # Read to memory
+obj = file.read()  # Read object
 ```
 # JSON
 JSON Files

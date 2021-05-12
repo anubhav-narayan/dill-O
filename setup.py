@@ -1,8 +1,11 @@
 from setuptools import setup, find_packages
 
+with open('./README.md', 'r', encoding='utf8') as f:
+    long_description = f.read()
+
 setup(
-    name='dillo',
-    version='0.0.1',
+    name='dill-O',
+    version='0.0.2',
     description='Small dill wrapper with Metadata',
     author='Anubhav Mattoo',
     author_email='anubhavmattoo@outlook.com',
@@ -12,16 +15,19 @@ setup(
         'json',
         'jsonpickle'
     ],
-    license=open('./LICENSE', 'r').read(),
-    long_description=open('./README.md', 'r').read(),
+    license="MIT",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/anubhav-narayan/dillO",
     classifiers=[
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT',
-        'Operating System :: POSIX :: Linux',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Development Status :: 3 - Alpha'
-    ]
+    ],
+    python_requires=">=3.6"
 )
