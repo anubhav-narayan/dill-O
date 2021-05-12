@@ -5,7 +5,7 @@ with open('./README.md', 'r', encoding='utf8') as f:
 
 setup(
     name='dill-O',
-    version='0.0.2',
+    version='0.0.3',
     description='Small dill wrapper with Metadata',
     author='Anubhav Mattoo',
     author_email='anubhavmattoo@outlook.com',
