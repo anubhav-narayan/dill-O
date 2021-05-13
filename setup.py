@@ -12,7 +12,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         'dill',
-        'json',
         'jsonpickle'
     ],
     license="MIT",

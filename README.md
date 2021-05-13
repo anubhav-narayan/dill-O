@@ -2,6 +2,10 @@
 
 A small dill wrapper with Metadata and Verification Hash
 
+[![GitHub version](https://badge.fury.io/gh/anubhav-narayan%2FdillO.svg)](https://badge.fury.io/gh/anubhav-narayan%2FdillO)
+[![PyPI version](https://badge.fury.io/py/dill-O.svg)](https://badge.fury.io/py/dill-O)
+[![Made with dill](https://img.shields.io/badge/Made%20with-dill-blue)](https://github.com/anubhav-narayan/dillO)
+
 # Installation
 
 ## From Source
