@@ -68,6 +68,37 @@ file = Dillo('My dillO', type='json')
 file.store(obj)  # store the object `before` you write
 file.json()  # get JSON Object
 ```
+# Interpreter Sessions
+## On Memory
+```python
+>>> a = 10
+>>> b = a + 20
+>>>  # Save a Session
+>>> from dillo import Dillo_Session
+>>> session = Dillo_Session.store_session('This Session')
+>>>  # Load a On Memory Session
+>>> session.load_session()
+```
+## On File
+```python
+>>> a = 10
+>>> b = a + 20
+>>>  # Save a Session
+>>> from dillo import Dillo_Session
+>>> session = Dillo_Session.store_session('This Session')
+>>>  # Load on a File
+>>> session.write_file('./filename.sdillo')
+```
+Read Back
+```python
+>>> from dillo import Dillo_Session
+>>> session = Dillo_Session.read_file('./filename.sdillo')
+>>> session.load_session()
+>>> a
+10
+>>> b
+30
+```
 # Sample Files
 dillO
 ```plaintext
