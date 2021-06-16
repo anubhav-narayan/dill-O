@@ -4,6 +4,19 @@ version = "0.1.1"
 description = "Small dill wrapper with Metadata"
 authors = ["Anubhav Mattoo <anubhavmattoo@outlook.com>"]
 license = "MIT"
+packages = [
+	{include = "dillo"}
+]
+classifiers = [
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Development Status :: 3 - Alpha'
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
