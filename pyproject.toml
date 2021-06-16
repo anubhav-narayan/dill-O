@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dill-O"
+version = "0.1.1"
+description = "Small dill wrapper with Metadata"
+authors = ["Anubhav Mattoo <anubhavmattoo@outlook.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dill = "^0.3.4"
+jsonpickle = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+dill = "^0.3.4"
+jsonpickle = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
