@@ -40,5 +40,4 @@ steps:
   
 - script: |
     poetry build
-    poetry publish
-  displayName: 'Poetry Build and Deploy'
+  displayName: 'Poetry Build'
