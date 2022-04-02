@@ -123,7 +123,26 @@ AAMAAAAAAAAABAAAAAAAAAAFAAAAAAAAAJR0lE50lFKULg==
 ```
 JSON
 ```json
-{"py/object": "dillo.dillo.Dillo", "name": "Array JSON", "type": "json", "sign": "SHA256", "protocol": null, "byref": false, "fmode": 2, "recurse": false, "_stream": {"py/b64": "gASVBAEAAAAAAACMCmRpbGwuX2RpbGyUjA1fY3JlYXRlX2FycmF5lJOUKGgAjAlfZ2V0X2F0dHKUk5RoAIwOX2ltcG9ydF9tb2R1bGWUk5SMHG51bXB5LmNvcmUuX211bHRpYXJyYXlfdW1hdGiUhZRSlIwMX3JlY29uc3RydWN0lIaUUpSMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5QoSwFLBYWUaA2MBWR0eXBllJOUjAJpOJSJiIeUUpQoSwOMATyUTk5OSv////9K/////0sAdJRiiUMoAQAAAAAAAAACAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAFAAAAAAAAAJR0lE50lFKULg=="}, "ignore": false, "tags": {"py/set": []}, "hash": {"py/b64": "MWFjMzMxNjFjZDcyYzVjZThlYzI4NmVhMzIyYTAyMzcyZTFkNzU5YTY3MjRmNjRkMzM0MTdhYzgyNzRkMjgwOA=="}}
+{
+  "py/object": "dillo.dillo.Dillo",
+  "name": "Array JSON",
+  "type": "json",
+  "sign": "SHA256",
+  "protocol": null,
+  "byref": false,
+  "fmode": 2,
+  "recurse": false,
+  "_stream": {
+    "py/b64": "gASVBAEAAAAAAACMCmRpbGwuX2RpbGyUjA1fY3JlYXRlX2FycmF5lJOUKGgAjAlfZ2V0X2F0dHKUk5RoAIwOX2ltcG9ydF9tb2R1bGWUk5SMHG51bXB5LmNvcmUuX211bHRpYXJyYXlfdW1hdGiUhZRSlIwMX3JlY29uc3RydWN0lIaUUpSMBW51bXB5lIwHbmRhcnJheZSTlEsAhZRDAWKUh5QoSwFLBYWUaA2MBWR0eXBllJOUjAJpOJSJiIeUUpQoSwOMATyUTk5OSv////9K/////0sAdJRiiUMoAQAAAAAAAAACAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAFAAAAAAAAAJR0lE50lFKULg=="
+  },
+  "ignore": false,
+  "tags": {
+    "py/set": []
+   },
+   "hash": {
+    "py/b64": "MWFjMzMxNjFjZDcyYzVjZThlYzI4NmVhMzIyYTAyMzcyZTFkNzU5YTY3MjRmNjRkMzM0MTdhYzgyNzRkMjgwOA=="
+   }
+}
 ```
 # License [MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2021 Anubhav Mattoo
